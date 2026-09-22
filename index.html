@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koustav | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="Capture.png">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">K<span>.</span></a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" id="menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD.</p>
+        <h1>I'm <span>Koustav</span>.</h1>
+        <h2>Aspiring Software Engineer</h2>
+        <p class="hero-text">
+          I’m a student who loves coding, building websites, and turning ideas
+          into useful digital experiences.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="code-card">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <pre><code><span class="purple">const</span> developer = {
+  name: <span class="green">"Koustav"</span>,
+  passion: <span class="green">"Coding"</span>,
+  focus: <span class="green">"Web Development"</span>,
+  status: <span class="green">"Learning & Building"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-title">
+        <p>01 — ABOUT</p>
+        <h2>A little about me.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="large">
+            I’m Koustav, a student and beginner developer passionate about
+            programming and technology.
+          </p>
+        </div>
+        <div class="about-copy">
+          <p>
+            I enjoy learning how software works and creating projects from
+            scratch. My current interests include web development, Python,
+            cybersecurity, and software engineering.
+          </p>
+          <p>
+            I believe the best way to learn coding is to build things,
+            experiment, make mistakes, and keep improving.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-title">
+        <p>02 — SKILLS</p>
+        <h2>What I'm learning.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill"><span>01</span><h3>HTML</h3><p>Building clean website structures.</p></article>
+        <article class="skill"><span>02</span><h3>CSS</h3><p>Designing responsive and modern interfaces.</p></article>
+        <article class="skill"><span>03</span><h3>JavaScript</h3><p>Adding interaction and functionality.</p></article>
+        <article class="skill"><span>04</span><h3>Python</h3><p>Learning programming through practical projects.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-title">
+        <p>03 — PROJECTS</p>
+        <h2>Things I've built.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-top"><span>01</span><span>WEB</span></div>
+          <h3>Personal Portfolio</h3>
+          <p>A responsive portfolio website designed to showcase my journey, skills, and projects.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span>02</span><span>PYTHON</span></div>
+          <h3>Python Projects</h3>
+          <p>A collection of beginner Python programs created like ATM simulator, ROCK, PAPER, SCISSORS game and more while learning programming fundamentals.</p>
+          <div class="tags"><span>Python</span><span>Logic</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span>03</span><span>COMING</span></div>
+          <h3>More to Come</h3>
+          <p>New projects will appear here as I continue learning and building.</p>
+          <div class="tags"><span>Learning</span><span>Building</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">04 — CONTACT</p>
+        <h2>Let's build something.</h2>
+        <p>Have an idea, project, or simply want to say hello?</p>
+        <a class="btn primary" href="mailto:palkoustav2023@gmail.com">Say Hello ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <p>© <span id="year"></span> Koustav. Built with curiosity & code.</p>
+
+  <div>
+    <a href="https://github.com/palkoustav2023-ctrl" target="_blank">GitHub ↗</a>
+    &nbsp;&nbsp;
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
